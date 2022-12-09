@@ -15,18 +15,9 @@
   <h2>주문하기</h2>
   <form>
     <label for="quantity">수량:</label>
-    <select id="quantity">
-      <option value="1">1개</option>
-      <option value="2">2개</option>
-      <option value="3">3개</option>
-      <option value="4">4개</option>
-      <option value="5">5개</option>
-      <option value="6">6개</option>
-      <option value="7">7개</option>
-      <option value="8">8개</option>
-      <option value="9">9개</option>
-      <option value="10">10개</option>
-    </select>
+    <button type="button" id="decrement">-</button>
+    <input type="number" id="quantity" min="1" max="10" value="1">
+    <button type="button" id="increment">+</button>
     <br>
     <label for="address">주소:</label>
     <input type="text" id="address">
