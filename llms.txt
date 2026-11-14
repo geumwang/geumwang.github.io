@@ -110,11 +110,11 @@
 
 ## 링크
 
-- 공식 웹페이지: https://geumwang.github.io/geumwang-seolleongtang/
+- 공식 웹페이지: https://geumwang.github.io/
 - 네이버 플레이스: https://map.naver.com/p/entry/place/21226896
 - 네이버 스마트스토어: https://smartstore.naver.com/geumwangtang
 - 피클 직거래: https://pickle.com/u/geumwangseolleong5
-- 피클 친구 추가 QR 이미지: https://geumwang.github.io/geumwang-seolleongtang/assets/pickle-qr.png
+- 피클 친구 추가 QR 이미지: https://geumwang.github.io/assets/pickle-qr.png
 
 ## 이미지
 
