@@ -229,7 +229,7 @@
   .band__caption span{margin-top:.7rem;font-size:.8rem;letter-spacing:.16em;color:rgba(246,237,222,.78)}
 
   /* ── 사진 갤러리 ───────────────────────────────────── */
-  .gallery{display:grid;gap:.8rem;grid-template-columns:1fr}
+  .gallery{display:grid;gap:.8rem;grid-template-columns:repeat(2,1fr)}
   .gallery figure{
     margin:0;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);
     background:var(--ivory);border:1px solid var(--line);
@@ -240,6 +240,10 @@
     font-size:.88rem;font-weight:700;letter-spacing:.01em;
   }
   .gallery figcaption span{display:block;font-weight:400;font-size:.76rem;color:var(--ink-faint);margin-top:.12rem}
+  @media (max-width:479px){
+    .gallery figcaption{padding:.6rem .75rem .65rem;font-size:.84rem}
+    .gallery figcaption span{font-size:.72rem}
+  }
 
   /* ── 주문 채널 ──────────────────────────────────────── */
   .channel{margin-top:1.6rem;background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
@@ -408,8 +412,7 @@
     .specs{grid-template-columns:1fr 1fr;column-gap:2.5rem}
     .specs > div:nth-last-child(2){border-bottom:1px solid var(--line)}
     .cards{grid-template-columns:1fr 1fr}
-    .gallery{grid-template-columns:repeat(3,1fr)}
-    .gallery img{aspect-ratio:4/5}
+    .gallery{grid-template-columns:repeat(2,1fr)}
     .pickle{grid-template-columns:1.35fr .65fr;align-items:start}
     .group{grid-template-columns:1.4fr .6fr;align-items:center}
     .foot{grid-template-columns:1.2fr .8fr;gap:2rem}
@@ -574,13 +577,18 @@
       </figure>
       <figure>
         <img src="assets/dogani-suyuk.jpg" width="880" height="1034" loading="lazy" decoding="async"
-             alt="도가니수육. 스지와 도가니를 담은 뚝배기">
-        <figcaption>도가니수육<span>스지·도가니</span></figcaption>
+             alt="도가니수육. 스지를 담아낸 뚝배기">
+        <figcaption>도가니수육<span>스지</span></figcaption>
       </figure>
       <figure>
         <img src="assets/seolleongtang-spoon.jpg" width="880" height="880" loading="lazy" decoding="async"
              alt="사골 진국에 밥과 고기를 올려 숟가락으로 뜨는 설렁탕">
         <figcaption>특설렁탕<span>사골 진국 · 차돌양지 고기 90g</span></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/suyuk-platter.jpg" width="1200" height="800" loading="lazy" decoding="async"
+             alt="수육플레드🚀. 차돌양지와 스지를 주문 후 갓 삶아 담아낸 수육 한 접시">
+        <figcaption>수육플레드🚀<span>차돌양지·스지 · 주문 후 갓 삶은 신선 냉장</span></figcaption>
       </figure>
     </div>
   </section>

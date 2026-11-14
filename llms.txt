@@ -124,7 +124,8 @@
 - `assets/geumwangtang.jpg` — 금왕탕(세로형)
 - `assets/geumwangtang-chopsticks.jpg` — 금왕탕, 젓가락을 댄 컷
 - `assets/seolleongtang-spoon.jpg` — 사골 진국에 밥 한 숟가락
-- `assets/dogani-suyuk.jpg` — 도가니수육
+- `assets/dogani-suyuk.jpg` — 도가니수육(스지)
+- `assets/suyuk-platter.jpg` — 수육플레드🚀(차돌양지·스지, 주문 후 갓 삶은 신선 냉장)
 - `assets/band-seolleongtang.jpg` — 사골 진국에 밥 한 숟가락(가로형)
 - `assets/pickle-qr.png` — 피클 친구 추가 QR (https://pickle.com/u/keumwangseolleong5)
 - `assets/og-cover.jpg` — 공유용 대표 이미지
